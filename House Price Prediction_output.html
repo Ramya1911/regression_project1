@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="./House Price Prediction_output_files/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+                           <div class="title">
+                        🏠 House Price Prediction
+                            </div>
+                       <div class="subtitle">
+                         by Viharatech Student
+                          </div>
+</div>
+
+<!-- MAIN CONTAINER -->
+<div class="container">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+        <img src="./House Price Prediction_output_files/Ramya.jpg" class="profile-pic">
+        <h2>KAAMARI RAMYA</h2>
+        <p class="role">Aspiring Data Scientist</p>
+
+        <div class="info">
+            <p>📊 Passionate about Machine Learning</p>
+            <p>💻 Python | ML | Data Analysis</p>
+            <p>🚀 Building intelligent systems</p>
+        </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+
+        <form action="http://127.0.0.1:5000/predict" method="post">
+
+            <div class="input-group">
+                <label>no_of_bedrooms</label>
+                <input type="number" name="bedrooms" required="">
+            </div>
+
+            <div class="input-group">
+                <label>no_of_bathrooms</label>
+                <input type="number" name="bathrooms" required="">
+            </div>
+
+            <div class="input-group">
+                <label>sqft_living</label>
+                <input type="number" name="sqft_living" required="">
+            </div>
+
+            <div class="input-group">
+                <label>sqft_lot</label>
+                <input type="number" name="sqft_lot" required="">
+            </div>
+
+            <div class="input-group">
+                <label>floors</label>
+                <input type="number" name="floors" required="">
+            </div>
+            <div class="input-group">
+                <label>waterfront</label>
+                <input type="number" name="waterfront" required="">
+            </div>
+            <div class="input-group">
+                <label>view</label>
+                <input type="number" name="view" required="">
+            </div>
+            <div class="input-group">
+                <label>condition</label>
+                <input type="number" name="condition" required="">
+            </div>
+            <div class="input-group">
+                <label>sqft_above</label>
+                <input type="number" name="sqft_above" required="">
+            </div>
+            <div class="input-group">
+                <label>sqft_base</label>
+                <input type="number" name="sqft_base" required="">
+            </div>
+            <div class="input-group">
+                <label>year_built</label>
+                <input type="number" name="year_built" required="">
+            </div>
+            <div class="input-group">
+                <label>year_rennovated</label>
+                <input type="number" name="year_rennovated" required="">
+            </div>
+            <div class="input-group">
+                <label>city</label>
+                <input type="number" name="city" required="">
+            </div>
+            <div class="input-group">
+                <label>country</label>
+                <input type="number" name="country" required="">
+            </div>
+
+            <!-- PREDICTION OUTPUT -->
+            <div class="prediction">
+                <h3></h3>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="button-container">
+                <button type="submit">Predict Price</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+
+</body></html>
