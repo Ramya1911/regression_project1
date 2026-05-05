@@ -1,4 +1,4 @@
-<img width="1899" height="994" alt="image" src="https://github.com/user-attachments/assets/30b86ef6-e6e7-4016-bfe5-800d141cb837" /><h1 align="center">🏠 House Price Prediction System</h1>
+🏠 House Price Prediction System</h1>
 
 <p align="center">
   <b>Machine Learning Project | Flask Web App | Pickle Model Deployment</b><br>
@@ -103,8 +103,7 @@ model = pickle.load(open("house_price_project1.pkl", "rb"))
 <hr>
 
 <h2>📸 Project Interface</h2>
-<p align="center">
-  <img src="Hose Price Prediction_output.html" width="150" style="border-radius:50%">
+<img width="1899" height="994" alt="image" src="https://github.com/user-attachments/assets/30b86ef6-e6e7-4016-bfe5-800d141cb837" /><h1 align="center">
 </p>
 
 
@@ -164,6 +163,8 @@ Open browser and go to:
 <p>
 <b>Kaamari Ramya</b><br>
 Aspiring Data Scientist passionate about Machine Learning and building intelligent systems.
+🌐Live Application : https://regression-project1.onrender.com
+for any queries ✉️kammariramyachary@gmail.com
   
 </p>
 
