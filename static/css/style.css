@@ -1,0 +1,157 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4db6ac;
+    color: white;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* MAIN CONTAINER */
+.container {
+    display: flex;
+    min-height: 90vh;
+
+}
+
+/* LEFT PANEL */
+.left-panel {
+    width: 30%;
+    flex-shrink: 0; /* prevents shrinking */
+}
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.left-panel h2 {
+    margin-top: 15px;
+}
+
+.role {
+    color: #004d40;
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* RIGHT PANEL */
+
+.right-panel {
+    width: 70%;
+    padding: 40px;
+    background: white;
+    box-sizing: border-box;
+}
+.right-panel form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Prevent inputs from overflowing */
+.input-group input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* INPUT GROUP */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #4db6ac;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 8px #4db6ac;
+}
+
+/* BUTTON */
+.button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+button {
+    background: linear-gradient(to right, #26a69a, #00796b);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #00796b, #004d40);
+}
+
+/* PREDICTION */
+.prediction {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e0f2f1;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #004d40;
+}
+/* FORM GRID - SIDE BY SIDE INPUTS */
+.right-panel form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Make full-width elements */
+.prediction,
+.button-container {
+    grid-column: span 2;
+}
+.prediction,
+.button-container {
+    grid-column: span 2;
+}
