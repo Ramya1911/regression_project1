@@ -1,4 +1,4 @@
-🏠 House Price Prediction System</h1>
+<h1>🏠 House Price Prediction System</h1>
 
 <p align="center">
   <b>Machine Learning Project | Flask Web App | Pickle Model Deployment</b><br>
@@ -164,7 +164,7 @@ Open browser and go to:
 <b>Kaamari Ramya</b><br>
 Aspiring Data Scientist passionate about Machine Learning and building intelligent systems.
 🌐Live Application : https://regression-project1.onrender.com
-for any queries ✉️kammariramyachary@gmail.com
+for support: ✉️kammariramyachary@gmail.com
   
 </p>
 
