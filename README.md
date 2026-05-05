@@ -102,10 +102,7 @@ model = pickle.load(open("house_price_project1.pkl", "rb"))
 
 <hr>
 
-<h2>📸 Project Interface</h2>
-<p align="center">
-  <img src="static/Ramya.jpg" width="150" style="border-radius:50%">
-</p>
+
 
 <p align="center">
   Clean UI with left profile panel and right prediction form.
