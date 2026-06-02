@@ -161,7 +161,7 @@ Open browser and go to:
 
 <h2>👩‍💻 About Me</h2>
 <p>
-<b>Kaamari Ramya</b><br>
+<b>Kammari Ramya</b><br>
 Aspiring Data Scientist passionate about Machine Learning and building intelligent systems.
 🌐Live Application : https://regression-project1.onrender.com
 for support: ✉️kammariramyachary@gmail.com
